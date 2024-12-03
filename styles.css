@@ -1,0 +1,99 @@
+.table-wrapper{
+    overflow-x: auto;
+}
+.styledtable {
+    table-layout: fixed;
+    width: 160%;
+    border-collapse: collapse;
+    border-radius: 0.5em;
+    overflow: hidden;
+    border: 1px solid #c7cdd1;
+    border-collapse: collapse;
+    font-size: 14px;
+    text-align: left;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    min-width: 640px;
+    overflow-x: auto;
+}
+
+.styledtable th {
+    color: #2C2E30;
+    font-weight: bold;
+    position: relative;
+    font-size: 0.85em;
+    border-bottom: 1px solid #95999d;
+    width: 50%;
+}
+
+th.col-1 {
+    width: 13%;
+}
+th.col-2{
+    width: 9%;
+}
+th.col-3,th.col-4{
+    width: 14%;
+}
+th.col-5{
+    width: 9%;
+}
+th.col-6{
+    width: 20%;
+}
+th.col-7{
+  /* takes up the remainder of 160% */
+}
+
+.styledtable th:last-of-type {}
+
+.styledtable th:first-of-type,
+.styledtable td:first-of-type {
+    position: sticky;
+    left: 0;
+    z-index: 2;
+}
+
+.styledtable thead th:first-of-type {
+    background-color: #FFFFFF;
+}
+
+.styledtable th,
+.styledtable td {
+    padding: 1em 1.5em;
+}
+
+.styledtable td {
+    /* white-space: nowrap; */
+}
+
+.styledtable th:first-of-type,
+.styledtable td:first-of-type {
+    padding: 1em 1.5em 1em 1em;
+}
+
+.styledtable th:last-of-type,
+.styledtable td:last-of-type {
+    padding: 1em 1em 1em 1.5em;
+}
+
+.styledtable td:last-of-type {
+    min-width: 48ch;
+    max-width: 64ch;
+}
+
+.styledtable tr {
+    border-bottom: 1px solid #e3e6e8;
+    margin: 1.5em;
+}
+
+.styledtable tr.even>td {
+    background: #FAFAFA;
+}
+
+.styledtable tr.odd>td {
+    background: #FFFFFF;
+}
+
+.styledtable tr:last-of-type {
+    border-bottom: none;
+}
