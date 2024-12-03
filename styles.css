@@ -1,6 +1,6 @@
 .table-wrapper{
     overflow-x: auto;
-    max-width: 640px;
+    width: 848px;
 }
 .styledtable {
     table-layout: fixed;
@@ -27,13 +27,13 @@
 }
 
 th.col-1 {
-    width: 13%;
+    width: 14%;
 }
 th.col-2{
-    width: 9%;
+    width: 10%;
 }
 th.col-3,th.col-4{
-    width: 14%;
+    width: 15%;
 }
 th.col-5{
     width: 9%;
