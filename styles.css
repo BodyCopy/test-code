@@ -1,5 +1,6 @@
 .table-wrapper{
     overflow-x: auto;
+    max-width: 640px;
 }
 .styledtable {
     table-layout: fixed;
